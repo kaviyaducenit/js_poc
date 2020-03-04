@@ -1,0 +1,163 @@
+/*font importing*/
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+/* body fromating*/
+body
+{
+    font-family: 'ROBOTO';
+    margin:0 auto;
+}
+/*heading formating*/
+h3
+{
+    color:red;
+}
+h5
+{
+    color:blue;
+}
+p::first-line
+{
+    color:blue;
+}
+p:hover
+{
+    background-color:red;
+}
+/*id formating*/
+#f h1
+{
+    border:2px solid black ;
+}
+#f h2
+{
+    border:2px solid black ;
+    border-bottom:5px solid blue
+}
+#e h2{
+    border:solid green;
+    border-width:1px 5px 3px 2px;
+    padding:1px 5px 3px 2px;
+    display:inline-block;
+}
+#e h3
+{
+    border:solid green; 
+    border-width:4px 2px 0px 4px;
+  
+}
+#ss
+{
+   
+    width: 87vw;
+    border: 15px solid black;
+    padding: 50px;
+    margin: 20px;
+    height:500vh;
+    background-image: url('../img/llop.jfif'); 
+    position:relative;
+}
+#kk
+{
+    width: 10vw;
+    border: 2px solid green;
+    padding: 5px;
+    height:15vh;
+    float:left;
+    background-image: url('../img/download.jfif');
+}
+#ll
+{
+    width: 10vw;
+    border: 2px solid blue;
+    padding: 5px;
+    height:15vh;
+    float:left;
+    background-color: green;
+    position: absolute;
+    top: 190;
+    left: 230;
+    background-image: url('../img/download\ \(1\).jfif');
+    border-radius: 50%;
+}
+#mm
+{
+    width: 10vw;
+    border: 2px solid blue;
+    padding: 5px;
+    height:15vh;
+    float:left;
+    background-image: url('../img/pexels-photo-255379.jpeg');
+    position: absolute;
+    top: 320;
+    left: 400;
+}
+#oo
+{
+    width: 10vw;
+    border: 2px solid blue;
+    padding: 5px;
+    height:15vh;
+    float:left;
+    background-color:rgb(203, 133, 41);
+    position: absolute;
+    top: 450;
+    left: 540;
+}
+/*table formating*/
+#g table,tr,th,td
+{
+    border:2px solid black;
+    padding:2px;
+}
+#tab
+{
+    border-collapse: collapse;
+    width:100%;
+}
+/*div formating*/
+#left
+{
+   float:left;
+   width:48%;
+}
+#right
+{
+    border:1px solid black;
+    width:48%;
+    float:right;
+    float:right;
+    /*width:40%;
+    background-color: rgb(0,0s,0); 
+    background-color: rgba(0,0,0, 0.5); 
+    color:black;
+    font-weight: bold;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    margin-top:20%;
+    padding:20px; */
+}
+/*class formating*/
+.aa
+{
+    float:right;
+    width:73%;
+}
+.v
+{
+    padding:10px;
+}
+/*from formating*/
+label
+{
+    float:left;
+}
+.gendervalue
+{
+    padding-right:100px;
+}
+
+@media only screen and (min-width:576px) {
+    #ss {
+        background-color: chartreuse;
+    }
+}

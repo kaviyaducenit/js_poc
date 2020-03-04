@@ -1,0 +1,24 @@
+@media (min width :13664px)
+{
+    .form-group
+    {
+        font-size:40px;
+        color :blue;
+    }
+}
+@media (min width :576px)
+{
+    .form-group
+    {
+        font-size:40px;
+        color :green;
+    }
+}
+@media (min width :1600px)
+{
+    .form-group
+    {
+        font-size:40px;
+        color :orange;
+    }
+}

@@ -1,0 +1,78 @@
+   table,th,td{
+            border: 2px solid black;
+           border-collapse: collapse;
+           width:75%;
+           text-align:left;
+           
+          }
+          tr{
+              height:50%;
+          }
+          body{
+              background-image: url("../images/th.jpg");
+              background-repeat:no-repeat;
+              background-size: cover;
+          }
+          table{
+              margin-left: auto;
+              margin-right: auto;
+              margin-top: 50px;
+          }
+          
+          div{
+              display:inline-block;
+          }
+        .bb
+        {
+            display: inline-block;
+            float:right;
+        }
+       #mytable{
+       width:50%;
+       }
+       #a1
+       {
+           padding:50px;
+       }
+       
+       #headd
+       {
+align-items: center;
+       }
+      .b{
+        display:inline-block;
+        width:fit-content;
+        text-align: CENTER;
+        padding-right:100px;
+        padding-left:12%;
+        
+       }
+       .bb{
+           
+    display: inline-block;
+    padding-right:12%;
+
+
+          }
+         
+          #radio{
+              margin-left: 130px;
+           }
+           #FF
+           {
+            margin-left: 12%;  
+           }
+           button{  
+               PADDING:10PX;
+           }
+
+           .Comments{
+            width:50%;
+            margin-left:62px;
+           }
+           .LL{
+               float:right;
+           }
+           select{
+               width:fit-content;
+           }
